@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-white text-black px-6 sm:px-10 md:px-16 lg:px-24">
-      <div className="flex flex-col lg:flex-row items-center lg:items-center w-full max-w-7xl">
+    <main className="flex min-h-screen items-center justify-center bg-white text-black px-6 sm:px-10 md:px-16 lg:px-20">
+      <div className="flex flex-col lg:flex-row items-center lg:items-center w-full max-w-7xl gap-12">
 
-        {/* Image container: 30% bigger and shifted right */}
-        <div className="w-full max-w-[780px] lg:max-w-[780px] aspect-square rounded-full overflow-hidden flex-shrink-0 mb-12 lg:mb-0 lg:mr-8 lg:ml-auto">
+        <div className="w-full max-w-[780px] lg:max-w-[820px] aspect-square rounded-full overflow-hidden flex-shrink-0 mb-12 lg:mb-0 lg:mr-8 lg:ml-auto">
           <img
             src="images/home-img.jpg"
             alt="Example"
@@ -15,14 +14,13 @@ export default function Home() {
           />
         </div>
 
-        {/* Text container: closer to image and vertically centered */}
-        <div className="flex flex-col justify-center max-w-md text-center lg:text-left font-light font-poiretone">
+        <div className="flex flex-col justify-center max-w-md lg:text-left font-light font-poiretone">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-thin mb-6 sm:mb-8">
             MALMÖ MACARONS
           </h1>
           <Link
             to="/products"
-            className="hover:font-normal font-lexendmega sm:text-lg pl-8"
+            className="hover:text-xl font-lexendmega sm:text-lg sm:text-center pr-12"
           >
             Discover our selection
           </Link>
