@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/malmomacarons/static/css/main.63c47e3e.css",
-    "main.js": "/malmomacarons/static/js/main.0af34d0c.js",
+    "main.js": "/malmomacarons/static/js/main.50327a5b.js",
     "index.html": "/malmomacarons/index.html",
     "main.63c47e3e.css.map": "/malmomacarons/static/css/main.63c47e3e.css.map",
-    "main.0af34d0c.js.map": "/malmomacarons/static/js/main.0af34d0c.js.map"
+    "main.50327a5b.js.map": "/malmomacarons/static/js/main.50327a5b.js.map"
   },
   "entrypoints": [
     "static/css/main.63c47e3e.css",
-    "static/js/main.0af34d0c.js"
+    "static/js/main.50327a5b.js"
   ]
 }
