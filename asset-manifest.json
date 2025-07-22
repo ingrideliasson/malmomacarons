@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/malmomacarons/static/css/main.63c47e3e.css",
+    "main.js": "/malmomacarons/static/js/main.dd1a74f0.js",
+    "static/media/logo.jpeg": "/malmomacarons/static/media/logo.53145054846676886240.jpeg",
+    "index.html": "/malmomacarons/index.html",
+    "main.63c47e3e.css.map": "/malmomacarons/static/css/main.63c47e3e.css.map",
+    "main.dd1a74f0.js.map": "/malmomacarons/static/js/main.dd1a74f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c47e3e.css",
+    "static/js/main.dd1a74f0.js"
+  ]
+}
