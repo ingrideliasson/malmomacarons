@@ -8,6 +8,7 @@ export default function Home() {
 
         <div className="w-full max-w-[780px] lg:max-w-[820px] aspect-square rounded-full overflow-hidden flex-shrink-0 mb-12 lg:mb-0 lg:mr-8 lg:ml-auto">
           <img
+            loading="eager"
             src={`${process.env.PUBLIC_URL}/images/home-img.jpg`}
             alt="Example"
             className="w-full h-full object-cover"
