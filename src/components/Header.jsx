@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import logo from '../assets/logo.jpeg'; // Assuming you have a logo image in the assets folder
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping} from '@fortawesome/free-solid-svg-icons';
 

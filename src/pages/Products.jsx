@@ -14,7 +14,7 @@ const Products = () => {
             key={product.id}
             id = {product.id}
             name={product.name}
-            image={product.image}
+            image={`${process.env.PUBLIC_URL}/${product.image}`}
             description={product.description} /* The descriptions are AI generated */
             price={product.price}
           />
