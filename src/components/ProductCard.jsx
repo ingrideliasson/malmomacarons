@@ -25,7 +25,7 @@ const ProductCard = ({ id, name, image, description, price}) => {
   return (
 
     <div className="rounded-2xl shadow-md p-4 bg-white flex flex-col items-center text-gray-700">
-      <img src={image} alt={name} className="w-full h-64 object-contain rounded-lg" />
+      <img src={image} alt={name} className="w-full h-70 object-cover rounded-lg" />
       <h3 className="text-lg font-lighter mt-2 font-montserrat text-center">{name}</h3>
       <p className="font-montserrat text-sm p-2 mt-1 overflow-hidden text-center">{description}</p>
       <span className="text-base font-montserrat mt-2">{price} kr</span>

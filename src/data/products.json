@@ -2,28 +2,28 @@
   {
     "id": 1,
     "name": "CHOCOLATE",
-    "image": "images/chocolate.png",
+    "image": "images/product-img.jpg",
     "description": " A rich and indulgent chocolate treat with a perfect smooth texture",
     "price": 32
   },
   {
     "id": 2,
     "name": "VANILLA",
-    "image": "images/vanilla.png",
+    "image": "images/product-img.jpg",
     "description": "A classic vanilla treat with a smooth and creamy texture",
     "price": 32
   },
   {
     "id": 3,
     "name": "LEMON",
-    "image": "images/lemon.png",
+    "image": "images/product-img.jpg",
     "description": "A zesty lemon delight with a refreshing burst of citrus flavor",
     "price": 35
   },
   {
     "id": 4,
     "name": "WILD BERRIES",
-    "image": "images/redberries.png",
+    "image": "images/product-img.jpg",
     "description": " A vibrant medley of forest berries wrapped in crisp almond shells",
     "price": 35
   },
@@ -31,14 +31,14 @@
   {
     "id": 5,
     "name": "STRAWBERRY",
-    "image": "images/strawberry.png",
+    "image": "images/product-img.jpg",
     "description": "A sweet burst of sun-ripened strawberries in every delicate bite",
     "price": 35
   },
     {
     "id": 6,
     "name": "PISTACHIO",
-    "image": "images/pistachio.png",
+    "image": "images/product-img.jpg",
     "description": "A nutty delight with a rich, creamy texture and a hint of saltiness",
     "price": 37
   },
@@ -46,7 +46,7 @@
     {
     "id": 7,
     "name": "RASPBERRY",
-    "image": "images/raspberry.png",
+    "image": "images/product-img.jpg",
     "description": "A tart and tangy raspberry treat with a burst of fruity flavor",
     "price": 37
   },
@@ -54,7 +54,7 @@
   {
     "id": 8,
     "name": "COFFEE",
-    "image": "images/coffee.png",
+    "image": "images/product-img.jpg",
     "description": "A robust coffee-flavored treat with a rich aroma and a smooth finish",
     "price": 37
   }
