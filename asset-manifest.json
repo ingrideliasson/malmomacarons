@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/malmomacarons/static/css/main.7bbbe6a7.css",
+    "main.js": "/malmomacarons/static/js/main.858ed520.js",
+    "index.html": "/malmomacarons/index.html",
+    "main.7bbbe6a7.css.map": "/malmomacarons/static/css/main.7bbbe6a7.css.map",
+    "main.858ed520.js.map": "/malmomacarons/static/js/main.858ed520.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bbbe6a7.css",
+    "static/js/main.858ed520.js"
+  ]
+}
