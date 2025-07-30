@@ -15,10 +15,9 @@ export default function CartSidebar({ open, onClose }) {
     >
       {/* Header */}
       <div className="flex justify-between items-center p-4 border-b border-gray-200">
-        <h2 className="text-xl font-montserrat text-gray-700">Your Cart</h2>
+        <h2 className="text-xl font-montserrat font-semibold text-pink-900">Your Cart</h2>
         <button
           onClick={onClose}
-          aria-label="Close cart"
           className="text-gray-600 hover:font-normal text-3xl font-thin rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-pink-500"
         >
           &times;
@@ -42,15 +41,15 @@ export default function CartSidebar({ open, onClose }) {
                   className="w-14 h-14 object-cover rounded-md shadow-sm"
                 />
                 <div>
-                  <div className="font-montserrat font-semibold text-gray-700">{item.name}</div>
-                  <div className="text-sm text-gray-600">
+                  <div className="font-montserrat text-gray-700">{item.name}</div>
+                  <div className="text-sm font-thin">
                     {item.quantity} × {item.price} kr
                   </div>
                 </div>
               </div>
 
               <button
-                className="text-red-700 hover:text-red-900"
+                className="text-pink-900 hover:text-red-600"
                 onClick={() => removeFromCart(item.id)}
               >
                 Remove
@@ -67,7 +66,7 @@ export default function CartSidebar({ open, onClose }) {
             <span>{total} kr</span>
           </div>
           <button
-            className="w-full bg-gray-200 text-gray-700 py-3 rounded-md hover:bg-gray-700 hover:text-white"
+            className="w-full bg-gray-200 text-gray-700 py-3 rounded-md hover:bg-pink-900 hover:text-white"
             onClick={() => alert('Checkout not implemented')}
           >
             Checkout

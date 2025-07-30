@@ -21,11 +21,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form ref={formRef} onSubmit={sendEmail} className="max-w-md mx-auto space-y-4">
-      <input name="user_name" placeholder="Your Name" required className="w-full p-2 border" />
-      <input name="user_email" type="email" placeholder="Your Email" required className="w-full p-2 border" />
-      <textarea name="message" placeholder="Your Message" required className="w-full p-2 border" />
-      <button type="submit" className="text-gray-700 px-4 rounded-md border-2 border-gray-500 hover:bg-gray-700 hover:text-white">Send</button>
+    <form ref={formRef} onSubmit={sendEmail} className="max-w-md mx-auto space-y-8 flex flex-col items-center">
+      <input name="user_name" placeholder="Your Name" required className="w-full p-2 rounded-lg border-2 border-pink-900" />
+      <input name="user_email" type="email" placeholder="Your Email" required className="w-full p-2 rounded-lg border-2 border-pink-900" />
+      <textarea name="message" placeholder="Your Message" required className="w-full p-2 rounded-lg border-2 border-pink-900" />
+      <button type="submit" className="text-gray-700 bg-white px-4 rounded-md hover:bg-gray-300">Send</button>
       <p>{status}</p>
     </form>
   );

@@ -8,11 +8,18 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
-        lexendmega: ['Lexend Mega', 'sans-serif'],
-        greatvibes: ['Great Vibes', 'cursive'],
-        poiretone: ["Poiret One", "sans-serif"],
-        playfairdisplay: ["Playfair Display", "serif"],
-        merriweather: ["Merriweather", "serif"]
+        lato: ['Lato', 'sans-serif'],
+        merriweather: ['Merriweather', 'serif'],
+        playwrite: ["Playwrite PL", 'cursive'],
+        vibur: ["Vibur", 'cursive'],
+        delius: ["Delius", 'cursive'],
+        playwriteit: ["Playwrite IT Moderna", 'cursive'],
+        stylescript: ["Style Script", 'cursive'],
+        petitformal: ["Petit Formal Script", 'cursive'],
+        nunito: ["Nunito", 'sans-serif'],
+        mulish: ["Mulish", 'sans-serif'],
+        quicksand: ["Quicksand", 'cursive']
+
     },
   },
 },

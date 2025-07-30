@@ -24,19 +24,22 @@ const ProductCard = ({ id, name, image, description, price}) => {
 
   return (
 
-    <div className="rounded-2xl shadow-md p-4 bg-white flex flex-col items-center text-gray-700">
-      <img src={image} alt={name} className="w-full h-70 object-cover rounded-lg" />
-      <h3 className="text-lg font-lighter mt-2 font-montserrat text-center">{name}</h3>
-      <p className="font-montserrat text-sm p-2 mt-1 overflow-hidden text-center">{description}</p>
-      <span className="text-base font-montserrat mt-2">{price} kr</span>
+    <div className="rounded-2xl p-4 bg-white shadow-lg flex flex-col items-center ">
+      <img src={image} alt={name} className="w-full h-64 object-cover rounded-lg" />
 
+        <h3 className="text-2xl mt-4 text-center font-petitformal font-bold text-pink-950">{name}</h3>
+        <p className="font-montserrat font-light text-sm p-2 mt-1 overflow-hidden text-center">{description}</p>
+      
+
+        <span className="text-md font-medium text-gray-700 font-lato mt-2">{price} kr</span>
+      
 
 
       {quantity === 0 ? ( //If quantity is 0, show add to cart button. When clicked, quantity increments by 1
 
         //call the function setQuantity and pass 1 as an argument when user clicks the button
-        <button className=" px-8 py-1 mt-2 mt-5 text-gray-700 text-semibold rounded-md font-montserrat 
-        text-sm border-2 border-gray-600 hover:bg-gray-700 hover:text-white"
+        <button className=" px-8 py-1 mt-2 mt-5 font-bold hover:text-md rounded-md font-lato  
+        text-md text-pink-900 bg-red-50"
         onClick = {() => setQuantity(1)}>  
         BUY
         </button>
@@ -46,23 +49,23 @@ const ProductCard = ({ id, name, image, description, price}) => {
       <div className="flex items-center justify-center space-x-3 mt-5  rounded-md border-gray-600 px-3 py-1">
         <button
           onClick={decrement}
-          className="px-3 py-1 text-sm text-gray-700 font-semibold border-2 border-gray-600 
-          rounded-md hover:bg-gray-700 hover:text-white transition">
+          className="px-3 py-1 text-sm text-gray-700 font-semibold border-2 border-pink-900 text-pink-900 
+          rounded-md hover:bg-pink-900 hover:text-white transition">
           -
         </button>
         <span className="text-sm font-montserrat">{quantity}</span>
         <button
           onClick={increment}
-          className="px-3 py-1 text-sm text-gray-700 font-semibold border-2 border-gray-600 
-          rounded-md hover:bg-gray-700 hover:text-white transition">
+          className="px-3 py-1 text-sm text-gray-700 font-semibold border-2 border-pink-900 text-pink-900 
+          rounded-md hover:bg-pink-900 hover:text-white transition">
           +
         </button>
       </div>
 
-
       )}
 
     </div>
+
 
   );
 };
