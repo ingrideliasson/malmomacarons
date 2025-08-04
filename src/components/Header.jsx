@@ -8,10 +8,14 @@ export default function Header({ onCartClick }) {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-pink-900 px-6 py-4 md:px-12 backdrop-blur-md text-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
+      <div className=" mx-auto flex items-center justify-between">
+
         <Link to="/">
-          <div className="font-petitformal text-2xl font-bold">MM</div>
+          <img 
+          src={`${process.env.PUBLIC_URL}/images/macarons-logo.png`} 
+          alt="logo" 
+          className="w-full h-12 object-cover rounded-lg" 
+          />
         </Link>
 
         <nav className="hidden sm:block absolute left-1/2 transform -translate-x-1/2">

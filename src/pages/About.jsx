@@ -1,7 +1,7 @@
 
 export default function About() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-16">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-16 mt-16 md:mt-0">
       <div className="w-full max-w-6xl bg-white rounded-2xl shadow-xl p-10 md:p-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-700 font-montserrat">
 
@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute left-0 top-0 h-full w-1 bg-pink-700 rounded-full" />
             <div className="pl-6">
-              <h2 className="font-montserrat text-lg mb-3 text-gray-900">
+              <h2 className="font-merriweather text-lg mb-3 text-gray-900">
                 LOREM IPSUM DOLOR SIT AMET
               </h2>
               <p className="text-sm leading-relaxed">
@@ -24,7 +24,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute left-0 top-0 h-full w-1 bg-pink-700 rounded-full" />
             <div className="pl-6">
-              <h2 className="font-montserrat text-lg mb-3 text-gray-900">
+              <h2 className="font-merriweather text-lg mb-3 text-gray-900">
                 LOREM IPSUM DOLOR SIT AMET
               </h2>
               <p className="text-sm leading-relaxed">
@@ -39,7 +39,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute left-0 top-0 h-full w-1 bg-pink-700 rounded-full" />
             <div className="pl-6">
-              <h2 className="font-montserrat text-lg mb-3 text-gray-900">
+              <h2 className="font-merriweather text-lg mb-3 text-gray-900">
                 LOREM IPSUM DOLOR SIT AMET
               </h2>
               <p className="text-sm leading-relaxed">
@@ -54,7 +54,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute left-0 top-0 h-full w-1 bg-pink-700 rounded-full" />
             <div className="pl-6">
-              <h2 className="font-montserrat text-lg mb-3 text-gray-900">
+              <h2 className="font-merriweather text-lg mb-3 text-gray-900">
                 LOREM IPSUM DOLOR SIT AMET
               </h2>
               <p className="text-sm leading-relaxed">

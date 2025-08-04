@@ -7,6 +7,7 @@ This is an e-commerce website for a fictional macaron shop called "Malmö Macaro
 All images used in this project are icensed for free commercial use. Credits:
 - Home image: [Diana Polekhina](https://unsplash.com/@diana_pole)
 - Product image: [Evangelina Silina](https://unsplash.com/@evangelinas_photography)
+- Logo: studiogstock on Freepik
 
 
 
